@@ -1,0 +1,8 @@
+1 Física
+2 Química
+3 PEOO
+4 Biologia
+5 Matemática
+6 Design
+7 Artes
+8 Português
