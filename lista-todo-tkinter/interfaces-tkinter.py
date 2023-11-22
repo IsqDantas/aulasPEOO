@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 class MinhaApp(tk.Frame):
     def __init__(self, master=None):
         self.counter = 1
@@ -18,7 +17,7 @@ class MinhaApp(tk.Frame):
         self.entry_task_name = tk.Entry(entry_container, width=40)
         self.entry_task_name.pack()
 
-        self.button_task_name = tk.Button(entry_container, text="", command=self.__adicionar_tarefa())
+        self.button_task_name = tk.Button(entry_container, text="", command=self.__adicionar_tarefa)
 
         self.pack()
 
@@ -30,6 +29,9 @@ class MinhaApp(tk.Frame):
 
         botao_feito = tk.Button(container, text="OK", command=self.__excluir_tarefa)
         item_todo = tk.Label(container, text="", font=self.fonte_padrao)
+
+        botao_feito.pack()
+        item_todo.pack()
 
     def __excluir_tarefa(self):
         pass

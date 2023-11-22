@@ -1,0 +1,1 @@
+print('vem pro main.py')
